@@ -29,7 +29,7 @@ body{
 
 /* RIGHT SECTION */
 
-.content2{
+.content{
    
     margin: 40px 70px;
     color: #FFF;   
@@ -47,10 +47,77 @@ body{
   margin-top: 10px;
 }
 
+/* LEFT SECTION */
+
 /* FORM */
-form{
+form,.listRep{
     background-color: rgba(0, 0, 0, 0.7);;
-    margin: 20px;
+    margin: 10px 0 0 0;
     border-radius: 10px;
     color: #FFF;
+}
+.left h1{
+    color: #205B75;
+    text-align: center;
+}
+.sheds{
+    margin: 15px 0 0 15px;
+}
+.shed{
+    margin: 20px 0 0 0;
+}
+.shed>label{
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 1.2rem;
+}
+.shed>input{
+    padding: 10px;
+    background-color: rgba(243, 236, 236, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+.shed>button{
+    margin: 0 0 10px 10px;
+    padding: 10px;
+    width: 200px;
+    color: #FFFF;
+    background-color: #BF8B56;
+    font-weight: 800;
+    font-size: 1.4rem;
+    border:none;
+    border-radius: 10px;
+}
+.cumulative{
+    /* display: none; hidden */
+}
+.weekly, .yearly{
+    margin: 20px 0 0 15px;
+    font-size: 1.2rem;
+}
+
+/* FULL REPORT */
+.report{
+    margin-top: 30px;
+}
+.listRep{
+    display: none; hidden
+    padding: 20px 0 20px;
+}
+.listRep>ul{
+    
+    margin:  15px; 
+}
+    
+.listRep>ul>li{
+    list-style: none;
+    margin: 20px  0 15px; 
+    font-style: oblique;
+}
+.report button{
+    width: 100px;
+    padding: 10px 0px;
+    margin-left: 45%;
+    cursor: pointer;
+
 }
