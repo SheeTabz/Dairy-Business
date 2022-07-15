@@ -26,3 +26,22 @@ body{
         height: 100%;
         overflow: hidden;  
 }
+  
+
+.content2{
+   
+    margin: 40px 70px;
+    color: #FFF;   
+}
+.inner h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.inner ul{
+    list-style: none;
+}
+.inner ul li{
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
