@@ -89,8 +89,8 @@ form,.listRep{
     border-radius: 10px;
 }
 .cumulative{
-    /* display: none; hidden */
-}
+ /* display: none; hidden */
+} 
 .weekly, .yearly{
     margin: 20px 0 0 15px;
     font-size: 1.2rem;
@@ -101,8 +101,9 @@ form,.listRep{
     margin-top: 30px;
 }
 .listRep{
-    display: none; hidden
+    /* display: none; hidden */
     padding: 20px 0 20px;
+
 }
 .listRep>ul{
     
@@ -120,4 +121,19 @@ form,.listRep{
     margin-left: 45%;
     cursor: pointer;
 
+}
+.float{
+    float: left;
+    background-color: #BF8B56;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 45%;
+    margin-left: 20%;
+}
+.floatCont p{
+    font-size: 1.2rem;
+    
 }
