@@ -13,7 +13,7 @@
         <div class="leftSec">
             <div class=" left content">
             <h1>TRACK THE MILK PRODUCTION</h1>
-            <form action="">
+            <form id="forms">
                 <h2> Production per shed:</h2>
 
                 <div class="sheds">
@@ -35,7 +35,7 @@
                         <input type="number"  id="shedd">
                     </div>
                     <div class="shed shedA">
-                        <button type="submit" class="total">Total</button><span style="font-size:1.2rem; margin-left:1rem;">345 </span>   
+                        <button type="submit" onclick="form" class="total">Total</button><span style="font-size:1.2rem; margin-left:1rem;">345 </span>   
                     </div>
                 </div>
                 <div class="cumulative ">
@@ -74,12 +74,12 @@
                 <div class="content">
                     <div class="inner">
                     <h1>MILK PRODUCTION INFORMATION ;</h1>
-                    <ul>
-                      <li>You production in shed A is 290 litres</li>
+                    <ul id="results">
+                      <!-- <li>You production in shed A is 290 litres</li>
                       <li>You production in shed B is 290 litres</li>
                       <li>You production in shed A is 290 litres</li>
                       <li>You production in shed A is 290 litres</li>
-                      <li>You production in shed A is 290 litres</li>
+                      <li>You production in shed A is 290 litres</li> -->
                     </ul>
                 </div>
 
