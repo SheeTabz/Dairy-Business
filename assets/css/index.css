@@ -64,7 +64,7 @@ nav>button{
 /* HOME SECTION */
 .container{
     height: 70vh;
-    background-image: url("/assets/images/milk3.jpg");
+    background-image: url("../images/milk3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
