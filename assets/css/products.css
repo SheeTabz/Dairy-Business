@@ -17,7 +17,7 @@ body{
    
 }
 .rightSec{
- background-image: url("/assets/images/milk3.jpg");
+ background-image: url("../images/milk3.jpg");
  background-size: 100% 100%;
 }
 .overlay{
