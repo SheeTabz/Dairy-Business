@@ -5,7 +5,7 @@ const shedD = document.getElementById('shedd')
 const butn = document.getElementsByClassName('total')
 const forms = document.getElementById('forms')
 const display = document.getElementsByClassName('inner')
-
+const ul = document.getElementById('results')
 
 //functions
 
