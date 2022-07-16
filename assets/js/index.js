@@ -17,16 +17,35 @@ let inputs = [{name: 'A', litres: shedA.value},
        {name: 'B', litres: shedB.value }, {name: 'C', litres:shedC.value},
        {name: 'D', litres: shedD.value},]
 //function that returns the value of the specified in the input field       
-const totalInput = function (){   
+const totalInput = function (){  
+
 // looping through the input array and giving the output value
-inputs.forEach(data=>{ 
+ul.innerHTML=' '
+inputs.forEach(data=>{
+
     const li=document.createElement('li');
     li.innerText=`You production in ${data.name} is ${data.litres} litres`
     ul.appendChild(li);
-
- });
+ },);
 }
 totalInput()
+
+//function that adds the total input 
+let total = 0;
+const newData=[]
+inputs.forEach(data=>{return newData.push(Number(data.litres))})
+console.log(newData);
+const totalVolume=()=>{
+    total=newData.reduce((accumulator,currentValue)=>{return accumulator + currentValue},0) // adds the total litres in the array inputs
+    console.log(total);
+}
+const totalLiters = function(){
+    const list = document.createElement('li');
+    list.innerText = `Your total production is ${total} litres per day`
+    ul.appendChild(list);
+} 
+console.log(totalVolume());
+totalLiters();
 });
 
 
