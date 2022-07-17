@@ -88,6 +88,12 @@ form,.listRep{
     border:none;
     border-radius: 10px;
 }
+
+#total>span{
+    font-size: 1.5rem;
+    margin-left:1rem;
+    border-bottom: 6px solid #FFF;
+}
 .cumulative{
  /* display: none; hidden */
 } 

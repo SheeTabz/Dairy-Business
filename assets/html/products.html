@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,95 +9,101 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Products</title>
 </head>
+
 <body>
     <div class="container">
         <div class="leftSec">
             <div class=" left content">
-            <h1>TRACK THE MILK PRODUCTION</h1>
-            <form id="forms">
-                <h2> Production per shed:</h2>
+                <h1>TRACK THE MILK PRODUCTION</h1>
+                <form id="forms">
+                    <h2> Production per shed:</h2>
 
-                <div class="sheds">
-                    
-                    <div class="shed shedA">
-                        <label for="sheda">Shed A</label>
-                        <input type="number" id="sheda">
+                    <div class="sheds">
+
+                        <div class="shed shedA">
+                            <label for="sheda">Shed A</label>
+                            <input type="number" id="sheda">
+                        </div>
+                        <div class="shed shedB">
+                            <label for="shedb">Shed B</label>
+                            <input type="number" id="shedb">
+                        </div>
+                        <div class="shed shedC">
+                            <label for="shedc">Shed C</label>
+                            <input type="number" id="shedc">
+                        </div>
+                        <div class="shed shedD">
+                            <label for="shedd">Shed D</label>
+                            <input type="number" id="shedd">
+                        </div>
+                        <div class="shed" id="total">
+                            <button type="submit" class="total">Total</button>
+                            <!-- <span style="font-size:1.2rem; margin-left:1rem;">345 </span>  -->
+                        </div>
                     </div>
-                    <div class="shed shedA">
-                        <label for="shedb">Shed B</label>
-                        <input type="number"  id="shedb">
-                    </div>
-                    <div class="shed shedA">
-                        <label for="shedc">Shed C</label>
-                        <input type="number"  id="shedc">
-                    </div>
-                    <div class="shed shedA">
-                        <label for="shedd">Shed D</label>
-                        <input type="number"  id="shedd">
-                    </div>
-                    <div class="shed shedA">
-                        <button type="submit" onclick="form" class="total">Total</button><span style="font-size:1.2rem; margin-left:1rem;">345 </span>   
-                    </div>
-                </div>
-                <div class="cumulative ">
-                <div class="weekly">
-                    <label for="weekly">Weekly income : <span> 2345 </span>litres</label>
+                    <div class="cumulative ">
+                        <div class="weekly">
+                    <!-- <label for="weekly">Weekly income : <span> 2345 </span>litres</label> -->
                 </div>
                 <div class="yearly">
-                    <label for="yearly">Yearly income : <span> 1234 </span>litres</label>
+                    <!-- <label for="yearly">Yearly income : <span> 1234 </span>litres</label> -->
+                </div> 
+                    </div>
+                </form>
+
+
+                <div class="report">
+                    <h1>COMPLETE YEAR REPORT</h1>
+                    <button class="see">See full report <i class="fa fa-arrow-down"></i></button>
+                    <div class="listRep">
+                        <ul id="yearly">
+
+                            <!-- <li>Your income for January is 2617020</li>
+                            <li>Your income for February is 2448180</li>
+                            <li>Your income for March is 2617020</li>
+                            <li>Your income for April is 2532600</li>
+                            <li>Your income for May is 2617020</li>
+                            <li>Your income for June is 2532600</li>
+                            <li>Your income for July is 2617020</li>
+                            <li>Your income for August is 2617020</li>
+                            <li>Your income for September is 2532600</li>
+                            <li>Your income for October is 2617020</li>
+                            <li>Your income for November is 2532600</li>
+                            <li>Your income for December is 2617020</li> -->
+            </ul>
+                    </div>
                 </div>
             </div>
-            </form>
-
-        
-        <div class="report">
-            <h1>COMPLETE YEAR REPORT</h1>
-            <button class="see">See full report <i class="fa fa-arrow-down"></i></button>
-            <div class="listRep">
-            <ul>
-                <li>You production in shed A is 290 litres</li>
-                      <li>You production in shed B is 290 litres</li>
-                      <li>You production in shed A is 290 litres</li>
-                      <li>You production in shed A is 290 litres</li>
-                      <li>You production in shed A is 290 litres</li>
-                      <li>You production in shed A is 290 litres</li>
-                      <li>You production in shed B is 290 litres</li>
-                      <li>You production in shed A is 290 litres</li>
-                      <li>You production in shed A is 290 litres</li>
-                      <li>You production in shed A is 290 litres</li>
-            </ul>
-        </div>
-        </div>
-        </div>
         </div>
         <div class="rightSec">
             <div class="overlay">
                 <div class="content">
                     <div class="inner">
-                    <h1>MILK PRODUCTION INFORMATION ;</h1>
-                    <ul id="results">
-                      <!-- <li>You production in shed A is 290 litres</li>
+                        <h1>MILK PRODUCTION INFORMATION ;</h1>
+                        <ul id="results">
+                            <!-- <li>You production in shed A is 290 litres</li>
                       <li>You production in shed B is 290 litres</li>
                       <li>You production in shed A is 290 litres</li>
                       <li>You production in shed A is 290 litres</li>
                       <li>You production in shed A is 290 litres</li> -->
-                    </ul>
-                </div>
-
-                <div class="float">
-                    <div class="floatCont">
-                        <p>Sales</p>
-                    </div>|
-                    <div class="floatCont">
-                        <p>Sales</p>
-                    </div> |
-                    <div class="floatCont">
-                        <p>Sales</p>
+                        </ul>
                     </div>
-                </div>
+
+                    <div class="float">
+                        <div class="floatCont">
+                            <p>Sales</p>
+                        </div>|
+                        <div class="floatCont">
+                            <p>Sales</p>
+                        </div> |
+                        <div class="floatCont">
+                            <p>Sales</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    <script src="../js/index.js"></script>
+        <script src="../js/index.js"></script>
 </body>
+
 </html>
