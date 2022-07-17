@@ -6,7 +6,7 @@ This is a farm management website
 
 ## Demo
 Use the link provided to navigate to the AgriPlus website.
-[Dairy-Business](https://sheetabz.github.io/dairy-business/)<br>
+[Dairy-Business](https://sheetabz.github.io/Dairy-Business/)<br>
 
 The page appears as shown below and has the following feaures:
 - This the landingpage
