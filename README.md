@@ -2,10 +2,10 @@
 ***
 
 ## Describtion
-This is a farm management website that enables farmers who are not in the scope of their farms to be able to monitor nad track their dair production and know the sales in particular times.It is user friendly and easy to navigate through it. It has a landing page and farm management page that calculates the total milk production for you.
+This is a farm management website that enables farmers who are not in the scope of their farms to be able to monitor and track their dair production and know the sales in particular times.It is user friendly and easy to navigate through. It has a landing page and farm management page that calculates the total milk production for you.
 
 ## Demo
-Use the link provided to navigate to the Dairy_Business website.
+Use the link provided to navigate to the Dairy-Business website.
 [Dairy-Business](https://sheetabz.github.io/Dairy-Business/)<br>
 
 The page appears as shown below and has the following feaures:
