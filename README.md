@@ -2,17 +2,18 @@
 ***
 
 ## Describtion
-This is a farm management website
+This is a farm management website that enables farmers who are not in the scope of their farms to be able to monitor nad track their dair production and know the sales in particular times.It is user friendly and easy to navigate through it. It has a landing page and farm management page that calculates the total milk production for you.
 
 ## Demo
-Use the link provided to navigate to the AgriPlus website.
+Use the link provided to navigate to the Dairy_Business website.
 [Dairy-Business](https://sheetabz.github.io/Dairy-Business/)<br>
 
 The page appears as shown below and has the following feaures:
-- This the landingpage
+- This the landingpage: It a descriptive section that tells you waht the website is all about. The More button and the Product link will help you navigate to the management page.
 <img src="./assets/images/dairyPage.png">
-- Other pages<br>
+- Other pages: This is the farm management page that has input fields to enter the milk production in each shed then calculates the income for each  month <br>
 <img src="./assets/images/page2.png">
+- This is how the output will look like.
 <img src="./assets/images/page3.png">
 
 
